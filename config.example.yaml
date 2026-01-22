@@ -1,0 +1,19 @@
+# =============================================
+# EcomAds Optimizer - Configuration Template
+# Rename this file to `config.yaml` and fill in your details.
+# NEVER commit `config.yaml` to version control!
+# =============================================
+
+# Your 22-character Google Ads Developer Token (from MCC API Center)
+developer_token: "ABc123XyZ_987defGHIjkl"
+
+# OAuth 2.0 credentials from Google Cloud Console (Web application type)
+client_id: "123456789012-abcdefghijklmnopqrstuvwxyz.apps.googleusercontent.com"
+client_secret: "GOCSPX-YourClientSecretHere"
+
+# Your Google Ads Manager Account (MCC) ID — used as login_customer_id
+# Format: 1234567890 (no dashes, no spaces)
+login_customer_id: "1234567890"
+
+# Optional: Redirect URI for OAuth flow (must match GCP settings)
+redirect_uri: "http://localhost:8080/oauth2callback"

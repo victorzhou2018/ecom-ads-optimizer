@@ -1,0 +1,16 @@
+# Google Ads API official client library
+google-ads==24.0.0
+
+# Web framework for simple UI (optional, can be removed if CLI-only)
+streamlit==1.39.0
+
+# For handling OAuth 2.0 and HTTP requests
+requests==2.32.3
+google-auth-oauthlib==1.2.0
+google-auth==2.35.0
+
+# YAML config parsing
+PyYAML==6.0.2
+
+# Optional: logging & utilities
+python-dotenv==1.0.1
